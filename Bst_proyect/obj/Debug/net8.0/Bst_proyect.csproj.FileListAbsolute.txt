@@ -1,0 +1,14 @@
+C:\Users\jospa\Escritorio\CA-4\Bst_proyect\bin\Debug\net8.0\Bst_proyect.exe
+C:\Users\jospa\Escritorio\CA-4\Bst_proyect\bin\Debug\net8.0\Bst_proyect.deps.json
+C:\Users\jospa\Escritorio\CA-4\Bst_proyect\bin\Debug\net8.0\Bst_proyect.runtimeconfig.json
+C:\Users\jospa\Escritorio\CA-4\Bst_proyect\bin\Debug\net8.0\Bst_proyect.dll
+C:\Users\jospa\Escritorio\CA-4\Bst_proyect\bin\Debug\net8.0\Bst_proyect.pdb
+C:\Users\jospa\Escritorio\CA-4\Bst_proyect\obj\Debug\net8.0\Bst_proyect.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jospa\Escritorio\CA-4\Bst_proyect\obj\Debug\net8.0\Bst_proyect.AssemblyInfoInputs.cache
+C:\Users\jospa\Escritorio\CA-4\Bst_proyect\obj\Debug\net8.0\Bst_proyect.AssemblyInfo.cs
+C:\Users\jospa\Escritorio\CA-4\Bst_proyect\obj\Debug\net8.0\Bst_proyect.csproj.CoreCompileInputs.cache
+C:\Users\jospa\Escritorio\CA-4\Bst_proyect\obj\Debug\net8.0\Bst_proyect.dll
+C:\Users\jospa\Escritorio\CA-4\Bst_proyect\obj\Debug\net8.0\refint\Bst_proyect.dll
+C:\Users\jospa\Escritorio\CA-4\Bst_proyect\obj\Debug\net8.0\Bst_proyect.pdb
+C:\Users\jospa\Escritorio\CA-4\Bst_proyect\obj\Debug\net8.0\Bst_proyect.genruntimeconfig.cache
+C:\Users\jospa\Escritorio\CA-4\Bst_proyect\obj\Debug\net8.0\ref\Bst_proyect.dll
