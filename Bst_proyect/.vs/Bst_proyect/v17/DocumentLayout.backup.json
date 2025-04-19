@@ -3,16 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\jospa\\Escritorio\\CA-4\\Bst_proyect\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ADDF1858-4F5D-4981-99ED-43EE555AA52B}|Bst_proyect.csproj|c:\\users\\jospa\\escritorio\\ca-4\\bst_proyect\\bstnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADDF1858-4F5D-4981-99ED-43EE555AA52B}|Bst_proyect.csproj|solutionrelative:bstnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ADDF1858-4F5D-4981-99ED-43EE555AA52B}|Bst_proyect.csproj|c:\\users\\jospa\\escritorio\\ca-4\\bst_proyect\\bst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADDF1858-4F5D-4981-99ED-43EE555AA52B}|Bst_proyect.csproj|solutionrelative:bst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{149591D4-21A5-44F7-AB59-DAFD224E3439}|..\\Test1\\Test1.csproj|c:\\users\\jospa\\escritorio\\ca-4\\test1\\bsttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{149591D4-21A5-44F7-AB59-DAFD224E3439}|..\\Test1\\Test1.csproj|c:\\users\\jospa\\escritorio\\ca-4\\test1\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ADDF1858-4F5D-4981-99ED-43EE555AA52B}|Bst_proyect.csproj|c:\\users\\jospa\\escritorio\\ca-4\\bst_proyect\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ADDF1858-4F5D-4981-99ED-43EE555AA52B}|Bst_proyect.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADDF1858-4F5D-4981-99ED-43EE555AA52B}|Bst_proyect.csproj|c:\\users\\jospa\\escritorio\\ca-4\\bst_proyect\\bst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADDF1858-4F5D-4981-99ED-43EE555AA52B}|Bst_proyect.csproj|solutionrelative:bst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ADDF1858-4F5D-4981-99ED-43EE555AA52B}|Bst_proyect.csproj|c:\\users\\jospa\\escritorio\\ca-4\\bst_proyect\\bstnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADDF1858-4F5D-4981-99ED-43EE555AA52B}|Bst_proyect.csproj|solutionrelative:bstnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +28,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "BSTTests.cs",
+              "DocumentMoniker": "C:\\Users\\jospa\\Escritorio\\CA-4\\Test1\\BSTTests.cs",
+              "RelativeDocumentMoniker": "..\\Test1\\BSTTests.cs",
+              "ToolTip": "C:\\Users\\jospa\\Escritorio\\CA-4\\Test1\\BSTTests.cs",
+              "RelativeToolTip": "..\\Test1\\BSTTests.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAqwJkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T22:49:32.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MSTestSettings.cs",
+              "DocumentMoniker": "C:\\Users\\jospa\\Escritorio\\CA-4\\Test1\\MSTestSettings.cs",
+              "RelativeDocumentMoniker": "..\\Test1\\MSTestSettings.cs",
+              "ToolTip": "C:\\Users\\jospa\\Escritorio\\CA-4\\Test1\\MSTestSettings.cs",
+              "RelativeToolTip": "..\\Test1\\MSTestSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T22:48:40.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "BSTNode.cs",
               "DocumentMoniker": "C:\\Users\\jospa\\Escritorio\\CA-4\\Bst_proyect\\BSTNode.cs",
               "RelativeDocumentMoniker": "BSTNode.cs",
               "ToolTip": "C:\\Users\\jospa\\Escritorio\\CA-4\\Bst_proyect\\BSTNode.cs",
               "RelativeToolTip": "BSTNode.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T02:43:09.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T02:43:09.873Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "BST.cs",
               "DocumentMoniker": "C:\\Users\\jospa\\Escritorio\\CA-4\\Bst_proyect\\BST.cs",
               "RelativeDocumentMoniker": "BST.cs",
               "ToolTip": "C:\\Users\\jospa\\Escritorio\\CA-4\\Bst_proyect\\BST.cs",
               "RelativeToolTip": "BST.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAgwCAAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAvwGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-19T02:40:53.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jospa\\Escritorio\\CA-4\\Bst_proyect\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\jospa\\Escritorio\\CA-4\\Bst_proyect\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T01:05:12.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T01:05:12.343Z"
             }
           ]
         }

@@ -1,18 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using System.Collections.Generic;
 using Bst_proyect;
 
-namespace Bst_project
+namespace Bst_Project
 {
     public class BST
     {
         public BSTNode? Root;
 
+        // -------------------- INSERT --------------------
         public void Insert(int value)
         {
             Root = InsertRecursive(Root, value);
@@ -21,13 +16,16 @@ namespace Bst_project
         private BSTNode InsertRecursive(BSTNode? node, int value)
         {
             if (node == null) return new BSTNode(value);
+
             if (value < node.Value)
                 node.Left = InsertRecursive(node.Left, value);
             else if (value > node.Value)
                 node.Right = InsertRecursive(node.Right, value);
+
             return node;
         }
 
+        // -------------------- SEARCH --------------------
         public bool Search(int value)
         {
             return SearchRecursive(Root, value);
@@ -37,11 +35,13 @@ namespace Bst_project
         {
             if (node == null) return false;
             if (value == node.Value) return true;
+
             return value < node.Value
                 ? SearchRecursive(node.Left, value)
                 : SearchRecursive(node.Right, value);
         }
 
+        // -------------------- DELETE --------------------
         public void Delete(int value)
         {
             Root = DeleteRecursive(Root, value);
@@ -50,6 +50,7 @@ namespace Bst_project
         private BSTNode? DeleteRecursive(BSTNode? root, int key)
         {
             if (root == null) return root;
+
             if (key < root.Value)
                 root.Left = DeleteRecursive(root.Left, key);
             else if (key > root.Value)
@@ -62,35 +63,68 @@ namespace Bst_project
                 root.Value = MinValue(root.Right);
                 root.Right = DeleteRecursive(root.Right, root.Value);
             }
+
             return root;
         }
 
         private int MinValue(BSTNode node)
         {
-            int minv = node.Value;
             while (node.Left != null)
             {
-                minv = node.Left.Value;
                 node = node.Left;
             }
-            return minv;
+            return node.Value;
         }
 
-        public List<int> InOrder()
+        // -------------------- INORDER --------------------
+        public void PrintInOrder()
         {
-            List<int> result = new();
-            InOrderRecursive(Root, result);
-            return result;
+            Console.Write("InOrder: ");
+            PrintInOrderRecursive(Root);
+            Console.WriteLine();
         }
 
-        private void InOrderRecursive(BSTNode? node, List<int> result)
+        private void PrintInOrderRecursive(BSTNode? node)
         {
-            if (node != null)
-            {
-                InOrderRecursive(node.Left, result);
-                result.Add(node.Value);
-                InOrderRecursive(node.Right, result);
-            }
+            if (node == null) return;
+            PrintInOrderRecursive(node.Left);
+            Console.Write(node.Value + " ");
+            PrintInOrderRecursive(node.Right);
+        }
+
+        // -------------------- PREORDER --------------------
+        public void PrintPreOrder()
+        {
+            Console.Write("PreOrder: ");
+
+            PrintPreOrderRecursive(Root);
+            Console.WriteLine();
+        }
+
+        private void PrintPreOrderRecursive(BSTNode? node)
+        {
+            if (node == null) return;
+            Console.Write(node.Value + " ");
+            PrintPreOrderRecursive(node.Left);
+            PrintPreOrderRecursive(node.Right);
+        }
+
+        // -------------------- POSTORDER --------------------
+        public void PrintPostOrder()
+        {
+   
+
+            Console.Write("PostOrder: "  );
+            PrintPostOrderRecursive(Root);
+            Console.WriteLine();
+        }
+
+        private void PrintPostOrderRecursive(BSTNode? node)
+        {
+            if (node == null) return;
+            PrintPostOrderRecursive(node.Left);
+            PrintPostOrderRecursive(node.Right);
+            Console.Write(node.Value + " ");
         }
     }
 }

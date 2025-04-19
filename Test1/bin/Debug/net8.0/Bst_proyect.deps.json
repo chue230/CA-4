@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Bst_proyect/1.0.0": {
+        "runtime": {
+          "Bst_proyect.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bst_proyect/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

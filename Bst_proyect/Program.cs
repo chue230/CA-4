@@ -1,5 +1,5 @@
 ﻿using System;
-using Bst_project;
+using Bst_Project;
 
 namespace Bst_proyect
 {
@@ -14,7 +14,7 @@ namespace Bst_proyect
             bst.Insert(1);
             bst.Insert(6);
 
-            Console.WriteLine("InOrder: " + string.Join(", ", bst.InOrder()));
+            
             Console.WriteLine("\nBuscar 897: " + (bst.Search(897) ? "Sí está" : "No está"));
         }
     }
